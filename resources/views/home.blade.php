@@ -19,10 +19,10 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="{{route('seconda')}}">Seconda Pagina</a>
+                <a class="nav-link active" aria-current="page" href="{{route('seconda')}}">Second Page</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="{{route('terza')}}">Terza Pagina</a>
+                <a class="nav-link" href="{{route('terza')}}">Third Page</a>
               </li>
             </ul>
           </div>
