@@ -19,10 +19,14 @@ Route::get('/', function () {
 
 Route::get("/pagina-2", function () {
 
-    return view("seconda");
+    $saluto = "Ciao a tutti!";
+
+    return view("seconda", compact("saluto"));
 })->name('seconda');
 
 Route::get("/pagina-3", function () {
 
-    return view("terza");
+    $saluto = "Ciao a tutti!";
+
+    return view("terza", compact("saluto"));
 })->name('terza');
